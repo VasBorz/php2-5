@@ -8,12 +8,11 @@ class M_User extends BaseModel
     {
         if (empty($login) || empty($pass)) {
             return false;
-        } else if (!preg_match("/^[-a-zA-Z0-9]*$/", $login)) {
+        }else if (!preg_match("/^[-a-zA-Z0-9]*$/", $login)) {
             return false;
         }
-
         $user_vrf = htmlspecialchars($login);
-        $sql = 'SELECT * FROM blog.users WHERE user_login=?;';
+        $sql = 'SELECT * FROM geekbrains.users WHERE first_name=?;';
         $stmt = $this->connect()->prepare($sql);
         $stmt->execute([$user_vrf]);
         $result = $stmt->fetchAll();
@@ -24,7 +23,7 @@ class M_User extends BaseModel
             if ($pwd_check === false) {
                 return false;
             } else {
-                return $result;
+                return true;
             }
         }
 
@@ -52,19 +51,15 @@ class M_User extends BaseModel
     //Registration Method
     public function reg($login,$pass){
         if ($this->auth($login,$pass)){
-            return false;
-        }else{
-            if (!preg_match("/^[-a-zA-Z0-9]*$/", $login)) {
-                return false;
-            }
             $pwdHashed = password_hash($pass, PASSWORD_DEFAULT);
-            $sql = 'INSERT INTO blog.users (user_login, user_pass) VALUES (?, ?);';
+            $sql = 'INSERT INTO geekbrains.users (first_name, last_name) VALUES (?, ?);';
             $stmt = $this->connect()->prepare($sql);
             if ( $stmt->execute([$login, $pwdHashed])){
                 return true;
             }else{
                 return false;
             }
+
         }
     }
 }

@@ -6,12 +6,14 @@
  * $content - HTML страницы
  */
 ?>
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
 	<title><?=$title?></title>
-	<meta content="text/html; charset=Windows-1251" http-equiv="content-type">	
+	<meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" type="text/css" media="screen" href="v/style.css" /> 	
 </head>
 <body>
