@@ -6,7 +6,7 @@ class M_User extends BaseModel
     //Authorization method
     public function auth($login, $pass)
     {
-        if (empty($login) || empty($pass)) {
+        if (!empty($login) || !empty($pass)) {
             return false;
         } else if (!preg_match("/^[-a-zA-Z0-9]*$/", $login)) {
             return false;
