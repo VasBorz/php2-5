@@ -23,7 +23,7 @@ class M_User extends BaseModel
             if ($pwd_check === false) {
                 return false;
             } else {
-                return $result;
+                return true;
             }
         }
 
