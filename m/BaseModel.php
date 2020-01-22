@@ -4,7 +4,7 @@ abstract class BaseModel
 {
     const HOST = 'localhost';
     const USER = 'root';
-    const PWD = '';
+    const PWD = 'root';
     const DB = 'users';
 
     protected function connect(){

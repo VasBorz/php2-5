@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca87fbd3-68f9-4391-9132-4c06c394e2bc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v/v_login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/c/C_User.php" beforeDir="false" afterPath="$PROJECT_DIR$/c/C_User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/text.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m/BaseModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/m/BaseModel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/m/M_User.php" beforeDir="false" afterPath="$PROJECT_DIR$/m/M_User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v/v_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/v/v_main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v/v_registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/v/v_registration.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +31,30 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="geekbrains: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="geekbrains: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="users: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="Git.Settings">
@@ -45,6 +69,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -66,7 +91,12 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -83,7 +113,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579616470075</updated>
-      <workItem from="1579616471286" duration="24634000" />
+      <workItem from="1579616471286" duration="26980000" />
     </task>
     <servers />
   </component>
@@ -99,18 +129,26 @@
       <screen x="0" y="23" width="2560" height="1297" />
     </state>
     <state x="1301" y="161" key="#PHP/0.23.2560.1297@0.23.2560.1297" timestamp="1579620188045" />
+    <state x="1342" y="379" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579704913416">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1342" y="379" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1579704913416" />
     <state x="1360" y="193" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1579621153878">
       <screen x="0" y="23" width="2560" height="1297" />
     </state>
     <state x="1360" y="193" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.2560.1297@0.23.2560.1297" timestamp="1579621153878" />
+    <state width="254" height="548" key="HiddenNamespacesPopup" timestamp="1579704766706">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="254" height="548" key="HiddenNamespacesPopup/0.0.2560.1440@0.0.2560.1440" timestamp="1579704766706" />
     <state x="1422" y="458" key="NewPhpClassDialog" timestamp="1579621093091">
       <screen x="0" y="23" width="2560" height="1297" />
     </state>
     <state x="1422" y="458" key="NewPhpClassDialog/0.23.2560.1297@0.23.2560.1297" timestamp="1579621093091" />
-    <state x="1456" y="628" key="NewPhpFileDialog" timestamp="1579689253844">
+    <state x="1456" y="628" key="NewPhpFileDialog" timestamp="1579705203174">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1456" y="628" key="NewPhpFileDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1579689253844" />
+    <state x="1456" y="628" key="NewPhpFileDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1579705203174" />
     <state x="1456" y="589" key="NewPhpFileDialog/0.23.2560.1297@0.23.2560.1297" timestamp="1579618547286" />
     <state x="342" y="274" key="SettingsEditor" timestamp="1579689560795">
       <screen x="0" y="0" width="2560" height="1440" />
